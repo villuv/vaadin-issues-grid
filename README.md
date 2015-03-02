@@ -3,8 +3,8 @@ Grid Bugs with Vaadin 7.4.0
 
 Following problems reproduce with Firefox and Chromium
 
-Problem 1: Column expansion
----------------------------
+Problem 1: Column expansion (#16975)
+------------------------------------
 
 1. At start, there are no items, column heading is not expanded to full width
 2. Add an item with "Add" button, column expansion looks correct now
@@ -12,8 +12,8 @@ Problem 1: Column expansion
 4. Check "Filtered" checkbox to hide all items that are "true": Expansion is wrong again
 5. Uncheck "Filtered" checkbox: Items are displayed but expansion stays wrong.
 
-Problem 2: Row editing, checkbox
---------------------------------
+Problem 2: Row editing, checkbox (#16976)
+-----------------------------------------
 
 1. Add two items sugin "Add" button
 2. Edit (double click) first item, check the box, save. Value is true
